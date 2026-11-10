@@ -15,7 +15,8 @@ KaamSaathi ("work companion") helps a student, fresher, ITI/diploma holder or fi
 |---|---|---|
 | ![Resume check](docs/screenshots/resume.png) | ![Programmes in Kannada](docs/screenshots/opportunities-kannada.png) | ![Interview in Hindi](docs/screenshots/interview-hindi.png) |
 
-> Live app: _deploying (link added here once live)_ · Impact dashboard: `/impact` on the live app
+> **Live app: https://kaam-saathi-40a8.onrender.com** · Live impact dashboard: https://kaam-saathi-40a8.onrender.com/impact
+> (free hosting: the first load after a quiet spell can take ~50 seconds)
 
 ## The problem
 
