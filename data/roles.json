@@ -1,0 +1,93 @@
+{
+  "software-developer": {
+    "title": {"en": "Software Developer (fresher)", "hi": "सॉफ़्टवेयर डेवलपर (फ़्रेशर)", "kn": "ಸಾಫ್ಟ್‌ವೇರ್ ಡೆವಲಪರ್ (ಫ್ರೆಶರ್)"},
+    "skills": {
+      "programming language (Python/Java/C++)": ["python", "java", "c++", "javascript", "c#", "golang"],
+      "data structures & algorithms": ["data structures", "algorithms", "dsa", "leetcode", "hackerrank", "codechef"],
+      "git & GitHub": ["git", "github", "version control"],
+      "databases & SQL": ["sql", "mysql", "postgres", "mongodb", "database"],
+      "OOP": ["oop", "object oriented", "object-oriented"],
+      "testing": ["unit test", "pytest", "junit", "testing"]
+    },
+    "resources": ["freecodecamp", "nptel", "infosys-springboard"],
+    "questions": [
+      {"q": "Tell me about a project you built. What problem did it solve and what was your part?", "points": ["problem", "my role", "technology", "result"]},
+      {"q": "What is the difference between a list and a tuple in Python (or an array and a linked list)?", "points": ["mutable", "order", "memory", "use case"]},
+      {"q": "How would you find a bug in code that works on your laptop but fails on the server?", "points": ["logs", "reproduce", "environment", "version"]},
+      {"q": "Explain what Git is and why teams use it.", "points": ["version", "branch", "commit", "collaborate"]},
+      {"q": "What is a database index and when would you use one?", "points": ["faster", "search", "query", "trade-off"]}
+    ]
+  },
+  "web-developer": {
+    "title": {"en": "Web Developer", "hi": "वेब डेवलपर", "kn": "ವೆಬ್ ಡೆವಲಪರ್"},
+    "skills": {
+      "HTML & CSS": ["html", "css", "tailwind", "bootstrap"],
+      "JavaScript": ["javascript", "js", "typescript"],
+      "a frontend framework (React/Vue)": ["react", "vue", "angular", "next.js", "nextjs"],
+      "backend basics (Node/Django/Flask)": ["node", "express", "django", "flask", "fastapi"],
+      "git & GitHub": ["git", "github"],
+      "deployment": ["deploy", "vercel", "netlify", "render", "hosting"]
+    },
+    "resources": ["freecodecamp", "infosys-springboard", "aicte-internship"],
+    "questions": [
+      {"q": "Walk me through what happens when you type a website address and press Enter.", "points": ["dns", "request", "server", "render"]},
+      {"q": "How do you make a web page work well on a mobile phone?", "points": ["responsive", "media query", "flex", "test"]},
+      {"q": "What is the difference between GET and POST?", "points": ["data", "url", "body", "safe"]},
+      {"q": "Tell me about a website you built and deployed.", "points": ["problem", "stack", "deploy", "users"]},
+      {"q": "How would you speed up a slow web page?", "points": ["image", "cache", "minify", "lazy"]}
+    ]
+  },
+  "data-analyst": {
+    "title": {"en": "Data Analyst", "hi": "डेटा एनालिस्ट", "kn": "ಡೇಟಾ ಅನಾಲಿಸ್ಟ್"},
+    "skills": {
+      "Excel / Google Sheets": ["excel", "spreadsheet", "google sheets", "pivot", "vlookup"],
+      "SQL": ["sql", "mysql", "postgres", "query"],
+      "Python for data (pandas)": ["pandas", "numpy", "python"],
+      "visualisation (Power BI/Tableau)": ["power bi", "tableau", "matplotlib", "dashboard", "looker"],
+      "statistics basics": ["statistics", "mean", "regression", "hypothesis"]
+    },
+    "resources": ["nptel", "freecodecamp", "ms-learn"],
+    "questions": [
+      {"q": "You are given a messy sales spreadsheet. What steps do you take before analysing it?", "points": ["missing", "duplicate", "format", "check"]},
+      {"q": "Explain the difference between mean and median, and when median is better.", "points": ["average", "middle", "outlier", "skew"]},
+      {"q": "Write in words a SQL query to find the top 5 products by revenue.", "points": ["group by", "sum", "order by", "limit"]},
+      {"q": "Tell me about a dashboard or analysis you made. What decision did it help?", "points": ["data", "tool", "insight", "decision"]},
+      {"q": "How would you explain a chart to a manager who is not technical?", "points": ["simple", "key point", "action", "story"]}
+    ]
+  },
+  "customer-support": {
+    "title": {"en": "Customer Support / BPO Associate", "hi": "कस्टमर सपोर्ट / BPO एसोसिएट", "kn": "ಗ್ರಾಹಕ ಸೇವೆ / BPO ಅಸೋಸಿಯೇಟ್"},
+    "skills": {
+      "spoken English / regional languages": ["english", "hindi", "kannada", "tamil", "telugu", "communication"],
+      "typing & computer basics": ["typing", "ms office", "computer", "wpm"],
+      "CRM / ticketing tools": ["crm", "zendesk", "freshdesk", "salesforce", "ticket"],
+      "problem solving & empathy": ["customer", "resolve", "complaint", "empathy"]
+    },
+    "resources": ["skill-india-digital", "swayam", "ncs"],
+    "questions": [
+      {"q": "A customer is angry because their order is late. What do you say?", "points": ["apologise", "listen", "check", "solution"]},
+      {"q": "Why do you want to work in customer support?", "points": ["people", "communication", "learn", "grow"]},
+      {"q": "How do you handle a question you don't know the answer to?", "points": ["honest", "check", "escalate", "follow up"]},
+      {"q": "Tell me about a time you helped someone solve a problem.", "points": ["situation", "action", "result"]},
+      {"q": "Are you comfortable with night shifts and targets? How will you manage?", "points": ["yes", "plan", "health", "target"]}
+    ]
+  },
+  "software-tester": {
+    "title": {"en": "Software Tester (QA)", "hi": "सॉफ़्टवेयर टेस्टर (QA)", "kn": "ಸಾಫ್ಟ್‌ವೇರ್ ಟೆಸ್ಟರ್ (QA)"},
+    "skills": {
+      "manual testing & test cases": ["test case", "manual testing", "test plan", "bug report"],
+      "automation (Selenium/Playwright)": ["selenium", "playwright", "cypress", "automation"],
+      "a programming language": ["python", "java", "javascript"],
+      "bug trackers (Jira)": ["jira", "bugzilla", "defect"],
+      "SQL basics": ["sql", "database"]
+    },
+    "resources": ["nptel", "infosys-springboard", "freecodecamp"],
+    "questions": [
+      {"q": "How would you test a login page?", "points": ["valid", "invalid", "empty", "security"]},
+      {"q": "What is the difference between a bug's severity and its priority?", "points": ["impact", "urgency", "example"]},
+      {"q": "Write a good bug report for a button that does nothing when clicked.", "points": ["steps", "expected", "actual", "screenshot"]},
+      {"q": "When would you automate a test and when would you test manually?", "points": ["repeat", "regression", "cost", "exploratory"]},
+      {"q": "What is regression testing?", "points": ["change", "old features", "still work"]}
+    ]
+  }
+}

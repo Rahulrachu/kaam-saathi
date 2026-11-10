@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KaamSaathi — live impact</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><div class="brand"><span class="logo">क</span><div><h1>KaamSaathi impact</h1><p>Live, anonymous counts straight from the app's database</p></div></div><a href="/">Open the app →</a></header>
+<main>
+  <section class="card"><p id="since">Loading…</p><div class="grid" id="grid"></div></section>
+  <section class="card"><h2>How these are counted</h2>
+  <ul>
+    <li><b>People</b> = distinct anonymous browser ids (a random id kept in the browser; no names, phone numbers, IPs or resume text are stored).</li>
+    <li><b>Resume improved</b> = people who re-checked their resume and scored higher than on their first check.</li>
+    <li><b>Sent to apply</b> = clicks through to an official internship / apprenticeship / course portal.</li>
+    <li>Numbers include the developer's own test sessions during the build week.</li>
+  </ul></section>
+</main>
+<script>
+fetch("/api/impact").then(r=>r.json()).then(d=>{
+  const e=d.events, cards=[["People helped",d.people],["Resume checks",e.resume_check],["Resumes improved on re-check",d.resume_improved_by],
+   ["Avg. score gain on re-check",(d.avg_resume_score_gain>0?"+":"")+d.avg_resume_score_gain],["Mock-interview answers scored",e.interview_answer],
+   ["Programme searches",e.opportunities],["Sent to apply (portal clicks)",e.outbound_click],["Agent chats",e.chat],["Helpful 👍 / 👎",e.feedback_up+" / "+e.feedback_down]];
+  document.getElementById("grid").innerHTML=cards.map(([k,v])=>`<div class="stat"><div class="big">${v}</div><span>${k}</span></div>`).join("");
+  const langs=Object.entries(d.languages||{}).map(([k,v])=>`${k}: ${v}`).join(", ");
+  document.getElementById("since").textContent=`Counting since ${d.since||"—"} · people by language: ${langs||"—"}`;
+});
+</script></body></html>

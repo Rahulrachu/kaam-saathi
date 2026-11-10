@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KaamSaathi — your first-job companion</title>
+<meta name="description" content="Free AI career companion for first-time job seekers in India. Resume check, free government internships and apprenticeships, mock interviews, in English, Hindi and Kannada.">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">क</span><div><h1>KaamSaathi</h1><p data-i="tagline"></p></div></div>
+  <select id="lang" aria-label="Language">
+    <option value="en">English</option><option value="hi">हिन्दी</option><option value="kn">ಕನ್ನಡ</option>
+  </select>
+</header>
+
+<nav id="tabs">
+  <button data-tab="chat" class="on" data-i="tab_chat"></button>
+  <button data-tab="resume" data-i="tab_resume"></button>
+  <button data-tab="interview" data-i="tab_interview"></button>
+  <button data-tab="opps" data-i="tab_opps"></button>
+</nav>
+
+<main>
+  <section id="profile" class="card">
+    <h2 data-i="profile_h"></h2>
+    <div class="row">
+      <label><span data-i="edu"></span><input id="p_edu" placeholder="BCA / Diploma / 12th"></label>
+      <label><span data-i="age"></span><input id="p_age" type="number" min="14" max="60" placeholder="21"></label>
+    </div>
+    <label><span data-i="interests"></span><input id="p_int" placeholder="python, web, data, customer support"></label>
+    <label><span data-i="target"></span><select id="p_role"></select></label>
+  </section>
+
+  <section id="tab-chat" class="tab card">
+    <div id="log" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form id="chatform"><input id="msg" autocomplete="off"><button data-i="send"></button></form>
+  </section>
+
+  <section id="tab-resume" class="tab card hidden">
+    <h2 data-i="resume_h"></h2>
+    <textarea id="resume" rows="10"></textarea>
+    <div class="row"><button id="check" data-i="check"></button><button id="sample" class="ghost" data-i="sample"></button></div>
+    <div id="resume_out"></div>
+  </section>
+
+  <section id="tab-interview" class="tab card hidden">
+    <h2 data-i="interview_h"></h2>
+    <p id="q" class="q"></p>
+    <textarea id="ans" rows="6"></textarea>
+    <div class="row"><button id="submit_ans" data-i="submit"></button><button id="next_q" class="ghost" data-i="next"></button></div>
+    <div id="ans_out"></div>
+  </section>
+
+  <section id="tab-opps" class="tab card hidden">
+    <h2 data-i="opps_h"></h2>
+    <div class="row"><button id="find" data-i="find"></button><button id="road" class="ghost" data-i="roadmap"></button></div>
+    <div id="opps_out"></div>
+  </section>
+</main>
+<footer><span data-i="privacy"></span> · <a href="/impact" data-i="impact_link"></a> · <a href="https://github.com/Rahulrachu/kaam-saathi">GitHub</a></footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

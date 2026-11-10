@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pm-internship",
+    "name": "PM Internship Scheme",
+    "provider": "Ministry of Corporate Affairs, Govt. of India",
+    "type": "internship",
+    "url": "https://pminternship.mca.gov.in/",
+    "education": ["10th", "12th", "iti", "diploma", "graduate", "postgraduate"],
+    "age_min": 18, "age_max": 25,
+    "cost": "free",
+    "tags": ["any", "it", "banking", "manufacturing", "retail", "hospitality"],
+    "summary": {
+      "en": "Paid government-backed internships in India's top companies, with a monthly stipend. Not for people already in full-time jobs. Age limits and stipend have changed between rounds, so check the portal for the current terms.",
+      "hi": "भारत की शीर्ष कंपनियों में सरकारी सहायता वाली सवैतनिक इंटर्नशिप, हर महीने स्टाइपेंड के साथ। आयु सीमा और स्टाइपेंड हर राउंड में बदलते हैं, इसलिए पोर्टल पर ताज़ा शर्तें देखें।",
+      "kn": "ಭಾರತದ ಪ್ರಮುಖ ಕಂಪನಿಗಳಲ್ಲಿ ಸರ್ಕಾರದ ಬೆಂಬಲಿತ, ಮಾಸಿಕ ಸ್ಟೈಪೆಂಡ್ ಇರುವ ಇಂಟರ್ನ್‌ಶಿಪ್. ವಯೋಮಿತಿ ಮತ್ತು ಸ್ಟೈಪೆಂಡ್ ಸುತ್ತಿನಿಂದ ಸುತ್ತಿಗೆ ಬದಲಾಗುತ್ತದೆ, ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಇತ್ತೀಚಿನ ನಿಯಮ ನೋಡಿ."
+    }
+  },
+  {
+    "id": "naps",
+    "name": "National Apprenticeship Promotion Scheme (Apprenticeship India portal)",
+    "provider": "Ministry of Skill Development & Entrepreneurship",
+    "type": "apprenticeship",
+    "url": "https://www.apprenticeshipindia.gov.in/",
+    "education": ["10th", "12th", "iti", "diploma", "graduate"],
+    "age_min": 14, "age_max": 99,
+    "cost": "free",
+    "tags": ["any", "manufacturing", "it", "retail", "electrician", "fitter", "data-entry"],
+    "summary": {
+      "en": "Paid, on-the-job apprenticeships with registered companies across trades and sectors. Register on the portal, then apply to openings near you.",
+      "hi": "पंजीकृत कंपनियों में सवैतनिक, काम करते हुए सीखने वाली अप्रेंटिसशिप। पोर्टल पर पंजीकरण करें और पास की वैकेंसी में आवेदन करें।",
+      "kn": "ನೋಂದಾಯಿತ ಕಂಪನಿಗಳಲ್ಲಿ ಸಂಬಳ ಸಹಿತ, ಕೆಲಸದಲ್ಲೇ ಕಲಿಯುವ ಅಪ್ರೆಂಟಿಸ್‌ಶಿಪ್. ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ನೋಂದಾಯಿಸಿ ಹತ್ತಿರದ ಅವಕಾಶಗಳಿಗೆ ಅರ್ಜಿ ಹಾಕಿ."
+    }
+  },
+  {
+    "id": "nats",
+    "name": "National Apprenticeship Training Scheme (NATS)",
+    "provider": "Ministry of Education (Boards of Apprenticeship Training)",
+    "type": "apprenticeship",
+    "url": "https://nats.education.gov.in/",
+    "education": ["diploma", "graduate"],
+    "age_min": 18, "age_max": 99,
+    "cost": "free",
+    "tags": ["engineering", "it", "commerce", "science", "arts"],
+    "summary": {
+      "en": "One-year paid apprenticeships for recent graduates and diploma holders (engineering and general streams), with a government-shared stipend and a certificate.",
+      "hi": "हाल ही में स्नातक और डिप्लोमा धारकों के लिए एक साल की सवैतनिक अप्रेंटिसशिप, सरकारी साझा स्टाइपेंड और प्रमाणपत्र के साथ।",
+      "kn": "ಹೊಸದಾಗಿ ಪದವಿ/ಡಿಪ್ಲೊಮಾ ಮುಗಿಸಿದವರಿಗೆ ಒಂದು ವರ್ಷದ ಸಂಬಳ ಸಹಿತ ಅಪ್ರೆಂಟಿಸ್‌ಶಿಪ್, ಸರ್ಕಾರದ ಸ್ಟೈಪೆಂಡ್ ಮತ್ತು ಪ್ರಮಾಣಪತ್ರದೊಂದಿಗೆ."
+    }
+  },
+  {
+    "id": "aicte-internship",
+    "name": "AICTE Internship Portal",
+    "provider": "All India Council for Technical Education",
+    "type": "internship",
+    "url": "https://internship.aicte-india.org/",
+    "education": ["diploma", "graduate", "postgraduate"],
+    "age_min": 16, "age_max": 99,
+    "cost": "free",
+    "tags": ["it", "engineering", "management", "data", "web"],
+    "summary": {
+      "en": "Free national portal listing internships for students of technical and management programmes, including many remote and paid ones.",
+      "hi": "तकनीकी और मैनेजमेंट छात्रों के लिए मुफ़्त राष्ट्रीय इंटर्नशिप पोर्टल, जिसमें कई रिमोट और सवैतनिक इंटर्नशिप हैं।",
+      "kn": "ತಾಂತ್ರಿಕ ಮತ್ತು ಮ್ಯಾನೇಜ್‌ಮೆಂಟ್ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಉಚಿತ ರಾಷ್ಟ್ರೀಯ ಇಂಟರ್ನ್‌ಶಿಪ್ ಪೋರ್ಟಲ್, ಅನೇಕ ರಿಮೋಟ್ ಮತ್ತು ಸಂಬಳದ ಅವಕಾಶಗಳು."
+    }
+  },
+  {
+    "id": "ncs",
+    "name": "National Career Service (NCS) portal",
+    "provider": "Ministry of Labour & Employment",
+    "type": "jobs",
+    "url": "https://www.ncs.gov.in/",
+    "education": ["10th", "12th", "iti", "diploma", "graduate", "postgraduate", "none"],
+    "age_min": 14, "age_max": 99,
+    "cost": "free",
+    "tags": ["any", "it", "bpo", "retail", "support", "data-entry", "sales"],
+    "summary": {
+      "en": "Government jobs portal with private and public vacancies, job fairs, and free career counselling. Free registration.",
+      "hi": "सरकारी जॉब पोर्टल: निजी और सरकारी नौकरियाँ, रोज़गार मेले और मुफ़्त करियर काउंसलिंग। पंजीकरण मुफ़्त।",
+      "kn": "ಸರ್ಕಾರಿ ಉದ್ಯೋಗ ಪೋರ್ಟಲ್: ಖಾಸಗಿ ಮತ್ತು ಸರ್ಕಾರಿ ಹುದ್ದೆಗಳು, ಉದ್ಯೋಗ ಮೇಳಗಳು ಮತ್ತು ಉಚಿತ ವೃತ್ತಿ ಸಲಹೆ. ನೋಂದಣಿ ಉಚಿತ."
+    }
+  },
+  {
+    "id": "skill-india-digital",
+    "name": "Skill India Digital Hub (incl. PMKVY training)",
+    "provider": "Ministry of Skill Development & Entrepreneurship",
+    "type": "training",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "education": ["none", "10th", "12th", "iti", "diploma", "graduate", "postgraduate"],
+    "age_min": 14, "age_max": 99,
+    "cost": "free",
+    "tags": ["any", "it", "data-entry", "retail", "electrician", "beauty", "logistics", "support"],
+    "summary": {
+      "en": "Free skill courses and certificates, and the way into government short-term training (PMKVY) centres near you.",
+      "hi": "मुफ़्त स्किल कोर्स और प्रमाणपत्र, और पास के सरकारी अल्पकालिक प्रशिक्षण (PMKVY) केंद्रों तक पहुँच।",
+      "kn": "ಉಚಿತ ಕೌಶಲ್ಯ ಕೋರ್ಸ್‌ಗಳು, ಪ್ರಮಾಣಪತ್ರಗಳು ಮತ್ತು ಹತ್ತಿರದ ಸರ್ಕಾರಿ ಅಲ್ಪಾವಧಿ ತರಬೇತಿ (PMKVY) ಕೇಂದ್ರಗಳ ಮಾಹಿತಿ."
+    }
+  },
+  {
+    "id": "ddu-gky",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "provider": "Ministry of Rural Development",
+    "type": "training",
+    "url": "https://ddugky.gov.in/",
+    "education": ["none", "10th", "12th", "iti"],
+    "age_min": 15, "age_max": 35,
+    "cost": "free",
+    "tags": ["rural", "retail", "bpo", "logistics", "hospitality", "support"],
+    "summary": {
+      "en": "Free residential skill training with placement support for youth from poor rural families.",
+      "hi": "गरीब ग्रामीण परिवारों के युवाओं के लिए मुफ़्त आवासीय कौशल प्रशिक्षण और प्लेसमेंट सहायता।",
+      "kn": "ಬಡ ಗ್ರಾಮೀಣ ಕುಟುಂಬಗಳ ಯುವಜನರಿಗೆ ಉಚಿತ ವಸತಿ ಸಹಿತ ಕೌಶಲ್ಯ ತರಬೇತಿ ಮತ್ತು ಉದ್ಯೋಗ ನೆರವು."
+    }
+  },
+  {
+    "id": "nptel",
+    "name": "NPTEL online courses (IITs / IISc)",
+    "provider": "NPTEL",
+    "type": "course",
+    "url": "https://nptel.ac.in/",
+    "education": ["12th", "diploma", "graduate", "postgraduate"],
+    "age_min": 14, "age_max": 99,
+    "cost": "free to learn; small fee for the certificate exam",
+    "tags": ["it", "python", "data", "engineering", "ai", "programming"],
+    "summary": {
+      "en": "Free university-level courses from IITs and IISc in programming, data science and more. Learning is free; the proctored certificate exam has a fee.",
+      "hi": "IIT और IISc के मुफ़्त कोर्स: प्रोग्रामिंग, डेटा साइंस आदि। पढ़ाई मुफ़्त, प्रमाणपत्र परीक्षा का शुल्क है।",
+      "kn": "IIT ಮತ್ತು IISc ನ ಉಚಿತ ಕೋರ್ಸ್‌ಗಳು: ಪ್ರೋಗ್ರಾಮಿಂಗ್, ಡೇಟಾ ಸೈನ್ಸ್ ಇತ್ಯಾದಿ. ಕಲಿಕೆ ಉಚಿತ, ಪ್ರಮಾಣಪತ್ರ ಪರೀಕ್ಷೆಗೆ ಶುಲ್ಕವಿದೆ."
+    }
+  },
+  {
+    "id": "swayam",
+    "name": "SWAYAM",
+    "provider": "Ministry of Education",
+    "type": "course",
+    "url": "https://swayam.gov.in/",
+    "education": ["10th", "12th", "diploma", "graduate", "postgraduate"],
+    "age_min": 14, "age_max": 99,
+    "cost": "free to learn",
+    "tags": ["any", "it", "commerce", "communication", "english", "data"],
+    "summary": {
+      "en": "Government's free online course platform, from school level to postgraduate, including communication and computer skills.",
+      "hi": "सरकार का मुफ़्त ऑनलाइन कोर्स प्लेटफ़ॉर्म, स्कूल से पोस्टग्रेजुएट तक, संचार और कंप्यूटर स्किल सहित।",
+      "kn": "ಸರ್ಕಾರದ ಉಚಿತ ಆನ್‌ಲೈನ್ ಕೋರ್ಸ್ ವೇದಿಕೆ, ಶಾಲೆಯಿಂದ ಸ್ನಾತಕೋತ್ತರವರೆಗೆ, ಸಂವಹನ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಕೌಶಲ್ಯ ಸೇರಿ."
+    }
+  },
+  {
+    "id": "infosys-springboard",
+    "name": "Infosys Springboard",
+    "provider": "Infosys Foundation",
+    "type": "course",
+    "url": "https://infyspringboard.onwingspan.com/",
+    "education": ["10th", "12th", "diploma", "graduate", "postgraduate"],
+    "age_min": 10, "age_max": 99,
+    "cost": "free",
+    "tags": ["it", "programming", "python", "java", "web", "communication", "ai"],
+    "summary": {
+      "en": "Free courses and certificates in programming, digital skills and workplace communication.",
+      "hi": "प्रोग्रामिंग, डिजिटल स्किल और ऑफ़िस कम्युनिकेशन में मुफ़्त कोर्स और प्रमाणपत्र।",
+      "kn": "ಪ್ರೋಗ್ರಾಮಿಂಗ್, ಡಿಜಿಟಲ್ ಕೌಶಲ್ಯ ಮತ್ತು ಕಚೇರಿ ಸಂವಹನದಲ್ಲಿ ಉಚಿತ ಕೋರ್ಸ್ ಮತ್ತು ಪ್ರಮಾಣಪತ್ರ."
+    }
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp certifications",
+    "provider": "freeCodeCamp.org (non-profit)",
+    "type": "course",
+    "url": "https://www.freecodecamp.org/",
+    "education": ["10th", "12th", "iti", "diploma", "graduate", "postgraduate", "none"],
+    "age_min": 10, "age_max": 99,
+    "cost": "free",
+    "tags": ["it", "web", "javascript", "python", "data", "programming"],
+    "summary": {
+      "en": "Free, project-based coding certifications (web development, Python, data analysis). The projects you build go straight into your portfolio.",
+      "hi": "मुफ़्त, प्रोजेक्ट-आधारित कोडिंग सर्टिफ़िकेशन (वेब, पायथन, डेटा)। बनाए गए प्रोजेक्ट सीधे आपके पोर्टफ़ोलियो में जाते हैं।",
+      "kn": "ಉಚಿತ, ಪ್ರಾಜೆಕ್ಟ್ ಆಧಾರಿತ ಕೋಡಿಂಗ್ ಪ್ರಮಾಣಪತ್ರಗಳು (ವೆಬ್, ಪೈಥಾನ್, ಡೇಟಾ). ನೀವು ಮಾಡಿದ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳು ನಿಮ್ಮ ಪೋರ್ಟ್‌ಫೋಲಿಯೋ ಆಗುತ್ತವೆ."
+    }
+  },
+  {
+    "id": "ms-learn",
+    "name": "Microsoft Learn",
+    "provider": "Microsoft",
+    "type": "course",
+    "url": "https://learn.microsoft.com/en-us/training/",
+    "education": ["12th", "diploma", "graduate", "postgraduate"],
+    "age_min": 13, "age_max": 99,
+    "cost": "free to learn; certification exams are paid",
+    "tags": ["it", "cloud", "ai", "data", "excel", "support"],
+    "summary": {
+      "en": "Free self-paced learning paths for cloud, AI, data and IT support. Learning is free; official certification exams cost money.",
+      "hi": "क्लाउड, AI, डेटा और IT सपोर्ट के मुफ़्त सेल्फ़-पेस्ड कोर्स। सीखना मुफ़्त, आधिकारिक परीक्षा सशुल्क।",
+      "kn": "ಕ್ಲೌಡ್, AI, ಡೇಟಾ ಮತ್ತು IT ಸಪೋರ್ಟ್‌ಗೆ ಉಚಿತ ಸ್ವಯಂ-ಕಲಿಕೆ. ಕಲಿಕೆ ಉಚಿತ, ಅಧಿಕೃತ ಪರೀಕ್ಷೆಗೆ ಶುಲ್ಕವಿದೆ."
+    }
+  }
+]
